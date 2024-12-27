@@ -1,0 +1,51 @@
+.place-order-left{
+    margin-top: 20%;
+}
+.place-order-left h1{
+    font-family: "Belleza", serif;
+}
+.info-details{
+    margin-top: 20px;
+    padding: 5px;
+    font-family: 'Caudex', serif;
+}
+
+.info-details input{
+    margin-top: 15px;
+}
+
+.place-order-right{
+    margin-top: 20%;
+    
+}
+.place-order-right h4{
+    font-family: "Belleza", serif;
+}
+.payment-method{
+    display: flex;
+    gap: 50px;
+}
+
+.payment-method1{
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    border:  1px solid gray;
+    padding: 15px;
+    font-family: 'Caudex', serif;
+}
+.payment-method2{
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    margin-bottom: 0;
+    margin-top: 5px;
+    border: 1px solid gray;
+}
+
+.payment-method1 img{
+    width: 150px;
+}
+.payment-method1 p{
+    margin-bottom: 0;
+}

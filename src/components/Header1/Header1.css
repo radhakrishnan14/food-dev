@@ -1,0 +1,89 @@
+.header1{
+    height: 44vw;
+    background: url('/header_img.png') no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.header2{
+    height: 44vw;
+    background:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.6)), url('/header_img1.jpg') no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.header3{
+    height: 44vw;
+    background:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.6)), url('/header_img4.jpg') no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.header-content{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 50%;
+    bottom:10%;
+    left: 7%;
+    animation: fadein 3s;
+}
+.header-content h1{
+    font-weight: 600 !important;
+    color: white;
+    font-size: max(4.5vw,22px) ;
+    font-family: 'Noto', serif;
+
+}
+.header-content p{
+    color: white;
+    font-size: 18px;
+    font-family: 'Caudex', serif;
+}
+
+.header-content button{
+ background-color: white;
+ color: black;
+ border-radius: 20px;
+ width: 140px ;
+ font-family: 'Caudex', serif;
+ font-size: 16px;
+}
+
+.header-content button:hover{
+    background-color: white;
+    color: black;
+}
+
+@media (max-width: 1050px){
+    .header-content{
+        max-width: 45%;
+    }
+}
+
+@media  (max-width: 600px){
+    .header-content{
+        max-width: 65%;
+    }
+
+    .header-content p{
+        display: none;
+    }
+
+}
+@media  (max-width: 871px){
+    .header-content{
+        max-width: 65%;
+    }
+
+    .header-content p{
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .header-content button{
+        width: 100px;
+        font-size: 10px;
+       } 
+}

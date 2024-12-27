@@ -1,0 +1,186 @@
+
+  
+  /* Menu Container */
+  .menu-container {
+    display: flex;
+    padding: 20px;
+  }
+  
+  /* Filters Container */
+  .filter-container {
+    display: block;
+    width: 180px;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  
+  .filter-header {
+    margin-bottom: 20px;
+  }
+  
+  .filter-title {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333;
+    font-family: "Belleza", serif;
+  }
+  
+  .filter-section {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 180px;
+  }
+  
+  .filter-subtitle {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #333;
+    font-family: 'Noto', serif;
+  }
+  
+  .filter-options label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #666;
+    font-family: 'Caudex', serif;
+  }
+  
+  .filter-options input[type="checkbox"] {
+    margin-right: 8px;
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  
+  .filter-options label:hover {
+    color: #000;
+    cursor: pointer;
+  }
+  .filter-dropdown{
+    height: 15px;
+    width: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    display: none;
+  }
+  .middle{
+    width: 1200px;
+  }
+  .middle1{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+  }
+  
+  /* Sorting Section */
+  .sort-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 200px;
+    height: 20px;
+    margin-top: 50px;
+    margin-right: 90px;
+  }
+  
+  .all-collections-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 30px;
+    font-family: "Belleza", serif;
+  }
+  
+  
+  .sort-dropdown {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .sort-label {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .sort-select {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Caudex', serif;
+  }
+  
+  .sort-select:focus {
+    outline: none;
+    border-color: #666;
+  }
+.all-collections-title1{
+  display: none;
+}
+  @media (max-width:480px) {
+    .menu-container{
+      display: flex;
+      flex-direction: column;
+    }
+    .filtersection{
+      display: flex;
+      gap: 20px;
+      width: 300px;
+    }
+    .hidden{
+      display:none;
+    }
+    .filter-dropdown{
+      display: inline;
+    }
+    .filter-dropdown1{
+      transform: rotate(90deg);
+    }
+    .middle1{
+      display: flex;
+      flex-direction: column;
+      height: 60px;
+    }
+    .all-collections-title{
+      width: 250px;
+      margin-top: 0;
+      margin-bottom: 0;
+      display: none;
+    }
+    .food-display-list{
+      display: flex;
+      flex-direction: column;
+    }
+    .sort-container{
+      margin-top: 0;
+      margin-left: 20px;
+    }
+    .middle{
+      width: 400px;
+    }
+    .menu-container{
+      padding: 0;
+    }
+    .all-collections-title1{
+      display: block;
+      font-size: 20px;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #333;
+      margin-bottom: 20px;
+      height: 30px;
+      font-family: "Belleza", serif;
+    }
+  }
